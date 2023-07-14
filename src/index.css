@@ -1,0 +1,12 @@
+@import url("https://use.typekit.net/zub8slb.css");
+
+@tailwind base;
+
+@layer base {
+  html {
+    @apply font-serif;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
