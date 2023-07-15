@@ -4,7 +4,11 @@
 
 @layer base {
   html {
-    @apply font-serif;
+    @apply font-serif h-screen;
+  }
+
+  * {
+    /* border: 1px solid red; */
   }
 }
 
