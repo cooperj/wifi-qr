@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function WQ_Input(props: any) {
   const updateInput = (event: any) => {
     props.setValue(event.target.value);
