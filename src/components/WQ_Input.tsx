@@ -10,7 +10,7 @@ function WQ_Input(props: any) {
       </h1>
       <input
         type="text"
-        className="p-1 outline-dashed text-2xl text-center tablet:text-left tablet:text-4xl rounded outline-2 outline-gray-300 print:outline-none overflow-hidden w-full"
+        className="font-sans font-normal h-auto px-2 py-4 outline-dashed text-2xl text-center tablet:text-left tablet:text-4xl rounded outline-2 outline-gray-300 print:outline-none w-full"
         value={props.value}
         onChange={updateInput}
       />

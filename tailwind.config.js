@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  important: true,
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily: {
-      sans: ['ui-sans-serif', 'system-ui'],
+      // sans: ['como', 'ui-sans-serif', 'system-ui'],
+      sans: ['como'],
       serif: ['servus-slab', 'ui-serif', 'Georgia'],
       mono: ['ui-monospace', 'SFMono-Regular']
     },
